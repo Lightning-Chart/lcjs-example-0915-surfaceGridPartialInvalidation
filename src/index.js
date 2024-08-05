@@ -2,7 +2,7 @@
  * Example showcasing the partial data invalidation feature of Surface Grid Series
  */
 
-const lcjs = require('@arction/lcjs')
+const lcjs = require('@lightningchart/lcjs')
 const {
     lightningChart,
     LUT,
