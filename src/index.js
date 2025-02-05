@@ -21,8 +21,8 @@ const COLUMNS = 200
 const ROWS = 200
 
 const chart3D = lightningChart({
-    warnings: false,
-}).Chart3D({
+            resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
+        }).Chart3D({
     //  theme: Themes.darkGold
 })
 
