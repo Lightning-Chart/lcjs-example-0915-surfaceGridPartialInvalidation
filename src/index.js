@@ -10,7 +10,6 @@ const {
     PalettedFill,
     emptyLine,
     ColorShadingStyles,
-    LegendBoxBuilders,
     AxisScrollStrategies,
     PointStyle3D,
     regularColorSteps,
@@ -23,6 +22,7 @@ const ROWS = 200
 const chart3D = lightningChart({
             resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
         }).Chart3D({
+    legend: { addEntriesAutomatically: false },
     //  theme: Themes.darkGold
 })
 
@@ -42,6 +42,8 @@ const lut = new LUT({
     // ],
 })
 
+chart3D.legend.add(lut, { text: 'Intensity' })
+
 const heightData = new Array(COLUMNS).fill(0).map((_) => new Array(ROWS).fill(0))
 
 const surfaceSeries3D = chart3D
@@ -53,9 +55,6 @@ const surfaceSeries3D = chart3D
     .setWireframeStyle(emptyLine)
     .invalidateHeightMap(heightData)
     .setColorShadingStyle(new ColorShadingStyles.Phong())
-
-// Add legend with color look up table to chart.
-const legend = chart3D.addLegendBox(LegendBoxBuilders.HorizontalLegendBox).add(chart3D)
 
 // Animate surface invalidation over a moving "update location". The goal here is to showcase the partial data update feature of LC JS heatmaps and surfaces.
 const tStart = window.performance.now()

@@ -49,7 +49,6 @@ More commonly, the partial data update feature is used to load large data sets i
 * [Color RGBA factory]
 * [Color shading styles (3D)]
 * [Surface Grid Series]
-* [Legend Box]
 * [Axis scroll strategies]
 * [Point Series 3D]
 
@@ -75,14 +74,13 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[3D chart]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/Chart3D.html
-[3D axis]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/Axis3D.html
-[Paletted Fill]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/PalettedFill.html
-[Color lookup table]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/LUT.html
-[Color RGBA factory]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/functions/ColorRGBA.html
-[Color shading styles (3D)]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/variables/ColorShadingStyles.html
-[Surface Grid Series]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/SurfaceGridSeries3D.html
-[Legend Box]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/Chart.html#addLegendBox
-[Axis scroll strategies]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/variables/AxisScrollStrategies.html
-[Point Series 3D]: https://lightningchart.com/js-charts/api-documentation/v7.1.0/classes/PointSeries3D.html
+[3D chart]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/Chart3D.html
+[3D axis]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/Axis3D.html
+[Paletted Fill]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/PalettedFill.html
+[Color lookup table]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/LUT.html
+[Color RGBA factory]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/functions/ColorRGBA.html
+[Color shading styles (3D)]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/variables/ColorShadingStyles.html
+[Surface Grid Series]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/SurfaceGridSeries3D.html
+[Axis scroll strategies]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/variables/AxisScrollStrategies.html
+[Point Series 3D]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/PointSeries3D.html
 
